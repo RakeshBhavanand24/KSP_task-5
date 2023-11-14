@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    border:2px solid black;
+    margin:125px 450px 150px 520px;
+    width:20vw;
+    height: 60vh;
+    padding: 10px 17px 0px 17px;
+    font-size: 18px;
+    font-style:italic;
+    font-weight: 770;
+    /* background-color:rgb(129, 120, 110); */
+    background-image: linear-gradient(rgb(241, 121, 121),rgb(134, 134, 69),rgb(94, 77, 94));
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(57, 162, 127);
+}
+
+.name{
+    padding-left: 28px;
+    font-weight: 900;
+}
+
+.dob{
+    padding-left: 12px;
+}
+
+.email{
+    padding-left: 5px;
+}
+
+.phone{
+    padding-left: 3px;
+}
+
+.gender{
+    padding-left: 53px;
+}
+
+.state{
+    padding-left: 29px;
+}
+
+.container2{
+    padding-top: 0px;
+    padding-left: 129px;
+}
+
+.equality{
+    padding-left: 4px;
+}
+
+.city{
+    padding-left: 4px;
+}
+
+body{
+    background-color:rgb(189, 196, 240);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    /* background-image: linear-gradient(rgb(100, 173, 100),rgb(29, 29, 52),rgb(219, 181, 181)); */
+}
+
+.button{
+    padding-top:55px;
+    padding-left:138px;
+}
+
+.submit{
+    color:rgb(234, 232, 232);
+    background-color: rgb(38, 38, 46);
+}

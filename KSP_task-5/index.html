@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>HTML FORM PROJECT</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <form action="#">
+        <div class="container">
+            <h1>HTML FORM<hr></h1>
+            <br>
+
+            <label>Your name:</label>
+           <label class="name"><input  type="text"></label>
+            <br><br>
+
+            <label>Date Of Birth:</label>
+            <label class="dob"><input type="date"></label>
+            <br><br>
+
+            <label>Email address:</label>
+            <label class="email"><input type="email"></label>
+            <br><br>
+
+            <label>Phone number:</label>
+            <label class="phone"><input type="number"></label>
+            <br><br>
+
+            <label class="equality">Gender:</label>
+            <label class="gender"><input id=male name="Gender" value="male" type="radio">
+            <label for="male">Male</label>
+            <input id="female"  name="Gender" value="female" type="radio">
+            <label for="female">Female</label>
+             </label>
+            <br><br>
+
+            <label class="city" for="state">Select City:</label>
+            <label class="state"><select id="state" name="state">
+                <option value="select">select---</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="chennai">Chennai</option>
+                <option value="bombay">Bombay</option>
+                <option value="hyderabad">Hyderabad</option></label>
+            </select>
+            <br><br>
+
+            <label>Feedback Area:</label>
+            <br>
+            <div class="container2">
+            <textarea rows="4px" cols="18px"></textarea>
+            </div>
+
+             <label class="button">
+            <input class="submit" type="submit">&nbsp
+            <button class="submit">cancel</button>
+            </label>
+
+        </div>
+    </form>
+    </body>
+</html>
